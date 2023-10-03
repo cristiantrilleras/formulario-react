@@ -1,0 +1,57 @@
+/* ContactUs.css */
+
+/* Estilo para el formulario en general */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para el encabezado */
+  .header-contact {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #d6e5f5;
+    
+  }
+  
+  /* Estilo para los campos de entrada */
+  .field-name,
+  .field-email,
+  .field-message {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 90%;
+    padding: 10px;  
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para el botón de enviar */
+  .btn-send {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-send:hover {
+    background-color: #0056b3;
+  }
+  
